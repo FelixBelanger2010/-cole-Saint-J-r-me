@@ -3,21 +3,49 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>École Saint-Jérôme</title>
-    <link rel="stylesheet" href="css/style.css">
+    <title>Contactez-nous - École Saint-Jérôme</title>
+    <link rel="stylesheet" href="style.css"> <!-- تأكد أن ملف CSS متصل -->
 </head>
 <body>
-  
+
+    <header>
+        <h1>Contactez-nous</h1>
         <nav>
-            
-            <a href="contactez_nous.html">CONTACTEZ-NOUS</a>
-           
+            <a href="index.html">ACCUEIL</a> |
+            <a href="services.html">SERVICES</a> |
+            <a href="notre_methode.html">NOTRE MÉTHODE</a> |
+            <a href="par_ou_commencer.html">PAR OÙ COMMENCER</a> |
+            <a href="visualisation.html">VISUALISATION</a> |
+            <a href="tarification.html">TARIFICATION</a> |
+            <a href="conversation.html">CONVERSATION</a> |
+            <a href="contactez-nous.html" style="color: red;">CONTACTEZ-NOUS</a>
         </nav>
     </header>
-<main>
-    <h1>Contactez-nous</h1>
-    <p><strong>Adresse :</strong> 455 Rue Fournier, Saint-Jérôme, Québec, J7Z 4V2, Canada</p>
-    <p><strong>Email :</strong> réception@ecolest-jerome.ca</p>
-    <p><strong>Téléphone :</strong> 001 (438) 888-8193</p>
-</main>
 
+    <main>
+        <h2>Nos Coordonnées</h2>
+        <p><strong>Adresse :</strong> 455 Rue Fournier, Saint-Jérôme, Québec, J7Z 4V2, Canada</p>
+        <p><strong>Email :</strong> <a href="mailto:reception@ecolest-jerome.ca">reception@ecolest-jerome.ca</a></p>
+        <p><strong>Téléphone :</strong> <a href="tel:+14388888193">+1 (438) 888-8193</a></p>
+
+        <h2>Formulaire de Contact</h2>
+        <form action="mailto:reception@ecolest-jerome.ca" method="post" enctype="text/plain">
+            <label for="nom">Nom :</label>
+            <input type="text" id="nom" name="nom" required><br><br>
+
+            <label for="email">Email :</label>
+            <input type="email" id="email" name="email" required><br><br>
+
+            <label for="message">Message :</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br><br>
+
+            <button type="submit">Envoyer</button>
+        </form>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 École Saint-Jérôme - Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
