@@ -21,6 +21,11 @@ footer {
     bottom: 0;
     width: 100%;
 }
+.titre-principal {
+    font-size: 32px; /* حجم العنوان */
+    font-weight: bold; /* خط عريض */
+    color: #8B0000; /* اللون الأحمر الغامق */
+}
 .texte-accroche {
     font-size: 24px; /* حجم الخط */
     font-weight: bold; /* خط عريض */
