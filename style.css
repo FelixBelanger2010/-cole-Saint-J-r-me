@@ -1,1 +1,49 @@
+/* Style global */
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    color: #333;
+}
 
+/* Header */
+header {
+    background-color: #003366;
+    padding: 20px;
+    color: white;
+}
+
+header img {
+    width: 100px;
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #FFD700;
+}
+
+/* Main */
+main {
+    margin: 50px auto;
+    padding: 20px;
+}
+
+/* Footer */
+footer {
+    background-color: #003366;
+    color: white;
+    padding: 20px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
