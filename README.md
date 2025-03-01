@@ -6,7 +6,7 @@
     <title>École Saint-Jérôme</title>
   </head>
   </body>
-  <h1>Bienvenue à l'école Saint-Jérôme</h1>
+  <h1>Bienvenue à l'École Saint-Jérôme</h1>
   <p>Apprenez le français et l'anglais avec nous !</p>
 </body>
 </html>
