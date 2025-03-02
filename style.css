@@ -27,3 +27,11 @@ footer {
     color: #8B0000; /* اللون الأحمر الغامق */
 }
 
+nav a {
+    margin-right: 20px; /* يزيد المسافة بين كل عنصر */
+    text-decoration: none; /* لإزالة الخط تحت الروابط */
+    font-size: 18px; /* تكبير حجم الخط */
+    font-weight: bold; /* جعل الخط عريض */
+    color: #000; /* لون أسود غامق */
+}
+
