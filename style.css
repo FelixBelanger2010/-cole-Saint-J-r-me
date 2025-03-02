@@ -27,11 +27,13 @@ footer {
     color: #8B0000; /* اللون الأحمر الغامق */
 }
 
-nav a {
-    margin-right: 30px; /* يزيد المسافة بين كل عنصر */
-    text-decoration: none; /* لإزالة الخط تحت الروابط */
-    font-size: 20px; /* تكبير حجم الخط */
-    font-weight: bold; /* جعل الخط عريض */
-    color: #000; /* لون أسود غامق */
+nav ul {
+    list-style: none; /* إزالة النقاط */
+    padding: 0;
+}
+
+nav ul li {
+    display: inline-block; /* جعل العناصر بجانب بعضها */
+    margin-right: 30px; /* زيادة المسافة بين العناصر */
 }
 
