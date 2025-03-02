@@ -28,9 +28,9 @@ footer {
 }
 
 nav a {
-    margin-right: 20px; /* يزيد المسافة بين كل عنصر */
+    margin-right: 30px; /* يزيد المسافة بين كل عنصر */
     text-decoration: none; /* لإزالة الخط تحت الروابط */
-    font-size: 18px; /* تكبير حجم الخط */
+    font-size: 20px; /* تكبير حجم الخط */
     font-weight: bold; /* جعل الخط عريض */
     color: #000; /* لون أسود غامق */
 }
