@@ -34,6 +34,6 @@ nav ul {
 
 nav ul li {
     display: inline-block; /* جعل العناصر بجانب بعضها */
-    margin-right: 30px; /* زيادة المسافة بين العناصر */
+    margin-right: 50px; /* زيادة المسافة بين العناصر */
 }
 
