@@ -27,13 +27,3 @@ footer {
     color: #8B0000; /* اللون الأحمر الغامق */
 }
 
-nav ul {
-    list-style: none; /* إزالة النقاط */
-    padding: 0;
-}
-
-nav ul li {
-    display: inline-block; /* جعل العناصر بجانب بعضها */
-    margin-right: 50px; /* زيادة المسافة بين العناصر */
-}
-
