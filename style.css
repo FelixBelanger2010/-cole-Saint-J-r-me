@@ -27,3 +27,14 @@ footer {
     color: #8B0000; /* اللون الأحمر الغامق */
 }
 
+
+.maintenance {
+    text-align: center; /* Centrer le texte horizontalement */
+    font-size: 20px; /* Taille de police 20px */
+    font-weight: bold; /* Texte en gras */
+    color: black; /* Couleur noire */
+    position: absolute; /* Position absolue pour un placement précis */
+    top: 50%; /* Le placer à 50% de la hauteur de la page */
+    left: 50%; /* Le placer à 50% de la largeur de la page */
+    transform: translate(-50%, -50%); /* Ajustement parfait au centre */
+}
