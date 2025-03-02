@@ -38,3 +38,9 @@ footer {
     left: 50%; /* Le placer à 50% de la largeur de la page */
     transform: translate(-50%, -50%); /* Ajustement parfait au centre */
 }
+
+.nav-disabled {
+    pointer-events: none; /* Désactive le clic */
+    color: gray; /* Rend le texte plus discret */
+    text-decoration: none; /* Enlève le soulignement */
+}
